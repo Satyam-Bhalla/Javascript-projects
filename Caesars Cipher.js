@@ -1,5 +1,5 @@
 
-function rot13(str) { // LBH QVQ VG!
+function rot13(str) {
   str = str.split([""]);
   for (i=0;i<str.length;i++) {
     if (/[A-Z]/.test(str[i])) {
