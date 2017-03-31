@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: black;
+}
+td{
+	width: 25px;
+	height: 25px;
+}
+.blank{
+	background-color: black;
+}
+.snake{
+	background-color: cyan;
+}
+.wall{
+	background-color: darkorange;
+}
+.fruit{
+	background-color: white;
+}
+#score{
+	font: normal 20px monospace;
+    color: darkorange;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+#newgame{
+	padding-top: 0px;
+	background-color: black;
+	color: darkorange;
+	font-size: 30px;
+	border-radius: 5px;
+}
+#newgame:hover{
+	background-color: darkorange;
+	color: black;
+}
